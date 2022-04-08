@@ -13,6 +13,7 @@ public class AnalyticsCounter {
 		// first get input
 		BufferedReader reader = new BufferedReader (new FileReader("Project02Eclipse/symptoms.txt"));
 		String line = reader.readLine();
+		FileWriter writer = new FileWriter ("result.out");
 
 		// int headCount = 0;	// counts headaches
 		while (line != null) {
@@ -31,8 +32,11 @@ public class AnalyticsCounter {
 			}
 
 			line = reader.readLine();	// get another symptom
+			
 		}
 		
+		
+	
 		// next generate output -> this code doesn't work
 		//FileWriter writer = new FileWriter ("result.out");
 		//writer.write("headache: " + headacheCount + "\n");
