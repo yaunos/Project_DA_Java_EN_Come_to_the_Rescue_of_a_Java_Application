@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Main {
+public class Main { //please check AnalyticsCounter.java instead
 
     public static void main(){
 
