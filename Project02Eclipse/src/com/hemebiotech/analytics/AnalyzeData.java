@@ -8,7 +8,7 @@ import java.util.TreeMap;
 
 //public class CountSortData implements IDataProcess {
 public class AnalyzeData implements IDataProcess {
-	@override
+	@Override
 	public Map<String, Integer> Count(List<String> data)
 	
 	Scanner scanner = new Scanner(file);
