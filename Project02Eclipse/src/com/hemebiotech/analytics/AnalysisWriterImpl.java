@@ -22,20 +22,15 @@ public class AnalysisWriterImpl implements IAnalysisWriter{
 	}
 
 	 @Override
-	 //public void save(Map<String, Integer> sortedData)
 	 public void writeAnalysis(Map<String, Integer> countedAndSortedData) throws IOException {
-	        //the method which is writing the desired data in a file --->
 
-	        FileWriter fileWriter = new FileWriter(outputfile, false); // False to replace the content of a file, True to add the content to a file
-
-	        // Creation of a BufferedWriter which is using the fileWriter
+	        FileWriter fileWriter = new FileWriter(outputfile, false); 
 	        BufferedWriter writer = new BufferedWriter (fileWriter);
 
 
 	        try {
 
 					for (Map.Entry<String, Integer> entry : countedAndSortedData.entrySet()) {
-									// insert data in a BufferedWriter writer = new BufferedWriter (fileWriter); ** 
 						writer.write(entry.getKey());
 						writer.write(" : " + entry.getValue().toString());
 						writer.newLine();
