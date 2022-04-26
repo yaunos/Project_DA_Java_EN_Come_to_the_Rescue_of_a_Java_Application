@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Writes the analysis of some data from a map
+ * Writes the result of an analysis of some data from a map
  *
  */
 
