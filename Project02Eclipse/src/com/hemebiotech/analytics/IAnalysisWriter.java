@@ -4,9 +4,14 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Writes the analysis of some data from a map
+ *
+ */
+
 public interface IAnalysisWriter {
 
-    public void writeAnalysis(Map<String, Integer> data) throws IOException; //what needs to be done for 
+    public void writeAnalysis(Map<String, Integer> data) throws IOException;
 
 
 }

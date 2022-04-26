@@ -3,14 +3,21 @@ package com.hemebiotech.analytics;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Counts and sort the data
+ *
+ */
+
 public interface IDataProcessor {
 	
-	//if we choose the "easy" one step treemap mode
+	/**
+	 * Takes the available data available
+	 * 
+	 * @return a sorted map listing where all Symptoms are counted obtained from a data source
+	 */
+	
+	
 	Map<String, Integer> countAndSortData(List<String> symptoms);
     
-	//if we choose and create the quickSort mode
-	//Map<String, Integer> Count(List<String> data);
-
-    //Map<String, Integer> Sort(Map<String, Integer> data);
 
 }
