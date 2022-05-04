@@ -30,19 +30,19 @@ public class AnalysisWriterImpl implements IAnalysisWriter{
 
 	        try {
 
-					for (Map.Entry<String, Integer> entry : countedAndSortedData.entrySet()) {
-						writer.write(entry.getKey());
-						writer.write(" : " + entry.getValue().toString());
-						writer.newLine();
-						}
-					}							
+				for (Map.Entry<String, Integer> entry : countedAndSortedData.entrySet()) {
+				writer.write(entry.getKey());
+				writer.write(" : " + entry.getValue().toString());
+				writer.newLine();
+				}
+			}							
 						
 			catch (IOException e) {
 							
-					e.printStackTrace();
+				e.printStackTrace();
 							
-				}
-					writer.close();	
+			}
+			writer.close();	
 				
 
 			}

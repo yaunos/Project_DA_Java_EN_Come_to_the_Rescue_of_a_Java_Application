@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * This analyses alls symptoms found in a file and creates a resulting file of the analyse 
+ * This analyzes all symptoms found in a file and creates a resulting file of the analyse 
  *
  */
 
