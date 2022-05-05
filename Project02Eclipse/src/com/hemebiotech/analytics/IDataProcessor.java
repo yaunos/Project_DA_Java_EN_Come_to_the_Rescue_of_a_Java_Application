@@ -9,15 +9,14 @@ import java.util.Map;
  */
 
 public interface IDataProcessor {
-	
+
 	/**
 	 * Takes the available data available
 	 * 
-	 * @return a sorted map listing where all Symptoms are counted obtained from a data source
+	 * @return a sorted map listing where all Symptoms are counted obtained from a
+	 *         data source
 	 */
-	
-	
+
 	Map<String, Integer> countAndSortData(List<String> symptoms);
-    
 
 }

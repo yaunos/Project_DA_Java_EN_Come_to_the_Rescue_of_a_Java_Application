@@ -11,7 +11,6 @@ import java.util.Map;
 
 public interface IAnalysisWriter {
 
-    public void writeAnalysis(Map<String, Integer> data) throws IOException;
-
+	public void writeAnalysis(Map<String, Integer> data) throws IOException;
 
 }
